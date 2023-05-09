@@ -1,3 +1,8 @@
+# README 
+This is my first react appp created with npx-create-react-app
+i didn't  make any changes to the codes,i just pushed it to this Github Repository
+and i published on netlify.Live site at https://yusuf-first-react-app.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
