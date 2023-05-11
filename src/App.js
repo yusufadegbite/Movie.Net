@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import { FaMoon, FaSun } from "react-icons/fa";
+import logo from "./components/images/Frame 6.svg"
 
 
 
@@ -46,21 +47,18 @@ function App() {
   const onClick = () => {
     setTheme(!theme);
   };
-
- 
-
   
 
   return (
     <div className={`App${theme ? " dark" : ""} w-100%  h-screen`}>
-      <div className="bg-slate-200 h-100% dark:bg-dark-blue">
+      <div className="bg-slate-300 h-100% dark:bg-dark-blue">
     <div className="container mx-auto px-2 py-6 md:px-6 md:mx-auto">
       
       <div className="flex justify-between">
         <div>
-        <span className="text-3xl text-dark-blue font-bold dark:text-zinc-500">movie.Net</span>
+        <span className="text-3xl text-dark-blue font-bold dark:text-zinc-500"><img src={logo}alt="log" /></span>
         </div>
-        <div className="header-cta between-column gap-3 mt-2 text-dark-blue dark:text-zinc-500">
+        <div className="header-cta between-column gap-3 mt-6 text-dark-blue dark:text-zinc-500">
           {theme ? (
             <FaSun className="cursor-pointer text-2xl" onClick={onClick} />
           ) : (
