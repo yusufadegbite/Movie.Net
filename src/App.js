@@ -63,7 +63,7 @@ function App() {
           <SearchResults movies={movies} />
             
         </div>
-        <h3 className="pt-14 text-center dark:text-gray-700">copyright &copy; 2023,Yusphate.</h3> 
+        <h3 className="pt-48 md:pt-14 text-center dark:text-gray-700">copyright &copy; 2023,Yusphate.</h3> 
       </div>
     </div>
   );
